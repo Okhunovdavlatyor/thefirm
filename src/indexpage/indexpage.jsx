@@ -25,6 +25,8 @@ import {
   ResearchContainermain,
   ResearchBoxLeft,
   ReadMorebtnresearch,
+  LeftBoxFrusx,
+  ResearchBoxRight,
 } from "./indexpagestyle";
 import { Getintouchbtn } from "../navbar/navbarstyle";
 import mainpageintro from "../assets/mainpageintro.png";
@@ -35,7 +37,9 @@ import image4 from "../assets/safari.png";
 import image5 from "../assets/indeximage1.png";
 import image6 from "../assets/indeximage2.png";
 import image7 from "../assets/indeximage3.png";
-
+import img8 from '../assets/Group.png'
+import img9 from '../assets/Mask Group (2).png';
+import img10 from '../assets/Group 55.png';
 const IndexPage = () => {
   return (
     <>
@@ -94,8 +98,25 @@ const IndexPage = () => {
             <br />
             industry. Lorem Ipsum has been the industry's standard dummy <br />{" "}
             text ever since the 1500s,
-          </p>
+          </p>                
+          
+          <LeftBoxFrusx>
+          <img src={img8} alt="image8" />
+          <p>Loren rasion gravida auem is bibenua tase</p>
+          
+          <img src={img8} alt="image8" />
+          <p>Lorem Ipsum is simply dummy text of the.</p>
+          
+          <img src={img8} alt="image8" />
+          <p>Printing and typesetting industry. Lorem Ipsum</p>
+          
+          <img src={img8} alt="image8" />
+          <p>When an unknown printer took a galley of type and scrambled it</p>
+          </LeftBoxFrusx>
+          
         </LeftBoxFrus>
+        
+        
         <RightBoxFrus>
           <img src={image5} alt="image5" />
         </RightBoxFrus>
@@ -138,9 +159,9 @@ const IndexPage = () => {
           <Reasonbox>
             <p>Market Reserch</p>
           </Reasonbox>
-          <Reasonbox>
+          <Getintouchbtn>
             <p>Branding</p>
-          </Reasonbox>
+          </Getintouchbtn>
           <Reasonbox>
             <p>Reporting</p>
           </Reasonbox>
@@ -182,7 +203,7 @@ const IndexPage = () => {
             survived not only five centuries,
           </p>
         </ReasonConText>
-
+          
         <ResearchBoxLeft>
           <h1>Lorem Ipsum is simply</h1>
           <p>
@@ -193,11 +214,14 @@ const IndexPage = () => {
             Lorem Ipsum has been the industry's standard dummy text ever since
             the 1500s, when an unknown printer took.
           </p>
-
+        
           <ReadMorebtnresearch>
             <p>Read More</p>
           </ReadMorebtnresearch>
         </ResearchBoxLeft>
+        <ResearchBoxRight>
+        <img src={img9} alt="img9" />        
+        </ResearchBoxRight>
       </ResearchContainermain>
     </>
   );

@@ -118,7 +118,7 @@ export const IndexWrapper = styled.div`
   background-color: ${(props) => (props.$solutionbox ? `#fff` : "#fbfbfb")};
 `;
 
-export const LeftBoxFrus = styled.div`
+export const LeftBoxFrus  = styled.div`
   flex: 1;
   display: flex;
   flex-direction: column;
@@ -149,7 +149,42 @@ export const LeftBoxFrus = styled.div`
   li {
   }
 `;
+export const LeftBoxFrusx = styled.div`
+  padding-top: 20px;
+  //display: flex;  
+  //flex-direction: column;
+  //justify-content: center;
+  width: 583px;
+height: 393px;
+top: 1253px;
+left: 81px;
+gap: 0px;
+opacity: 0px;
 
+  
+  
+    width: 14px;
+height: 21px;
+top: 1462px;
+left: 110px;
+padding: 0px;
+gap: 0px;
+opacity: 0px;
+p {
+  
+  
+  font-family: Lora;
+font-size: 18px;
+font-weight: 400;
+line-height: 31.68px;
+letter-spacing: 0.02em;
+//text-align: left;
+
+
+}
+
+`;
+  
 export const RightBoxFrus = styled.div`
   flex: 1;
   display: flex;
@@ -387,7 +422,11 @@ export const ResearchBoxLeft = styled.div`
     letter-spacing: 0.36px;
   }
 `;
+export const ResearchBoxRight = styled.div`
+display: flex;
+flex: 1;
 
+`;
 export const ReadMorebtnresearch = styled.div`
   width: 157px;
   height: 44px;
